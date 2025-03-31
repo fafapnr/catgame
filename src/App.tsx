@@ -200,12 +200,21 @@ export default function App() {
         <>
           <div className="mb-4 text-center">
   <h1 className="text-xl sm:text-2xl font-semibold">
-    Level {level + 1} — <span className="text-pink-500">Score: {score}/{scoreNeeded}</span>
+    Level {level + 1} —{" "}
+    <span className="text-pink-500">Score: {score}/{scoreNeeded}</span>
   </h1>
+  {level === 0 && (
+    <p className="text-sm text-gray-600 mt-1">
+      กดน้องแมวค้างแล้วลากนะ ไม่งั้นน้องไม่ไป 🐾
+    </p>
+  )}
   {level === 3 && (
-    <p className="text-sm text-gray-600 mt-1">ด่านสุดท้ายแล้ว เก่งมาก 💪</p>
+    <p className="text-sm text-gray-600 mt-1">
+      ด่านสุดท้ายแล้ว เก่งมากก 💪
+    </p>
   )}
 </div>
+
 
 
           <div className="w-full max-w-xs sm:max-w-md md:max-w-lg">
