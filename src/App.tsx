@@ -118,7 +118,7 @@ export default function App() {
             มีเกมแมวมาให้เล่น
           </h1>
           <img
-            src="/public/oiag.gif"
+            src="https://www.icegif.com/wp-content/uploads/2024/05/cat-icegif-6.gif"
             alt="cat gif"
             className="mx-auto mb-4 w-64 rounded-xl shadow"
           />
